@@ -1,0 +1,23 @@
+Những thành phần thường gặp trên 1 giao diện website:
+1. Header (Đầu trang)
+2. Navigation (Điều hướng)
+3. Banner (Ảnh quảng cáo, ...) 
+4. Breadcrumb: Map cho biết người dùng đang ở đâu (Có thể có hoặc không)
+5. Sidebar (Thanh lề nằm về một phía)
+6. Slider (Thanh cuộn)
+7. Content (Nội dung chính của website)
+8. Footer (Chân trang)
+
+** Template:
+Src: https://www.w3schools.com/w3css/tryw3css_templates_band.htm#
+
+** Phân tích dự án
+- Header
+- Slider
+- Content
+	1. About
+	2. Tour
+	3. Contact
+	4. Image
+	5. Footer
+- Footer

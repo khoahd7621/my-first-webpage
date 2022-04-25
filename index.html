@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Black Pink</title>
     <link rel="icon" href="./assets/img/icon.jpg" type="image/x-icon" />
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
@@ -32,11 +33,15 @@
             </ul>
             <!-- End: Nav -->
 
-            <!-- Begin: Search button -->
+            <!-- Search button -->
             <div class="search-btn">
                 <i class="search-icon ti-search"></i>
             </div>
-            <!-- End: Search button -->
+
+            <!-- Mobile menu btn -->
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-icon ti-menu"></i>
+            </div>
         </div>
 
         <div id="slider">
@@ -55,22 +60,22 @@
                     Blackpink (Korean: 블랙핑크; commonly stylized as BLACKPINK or BLΛƆKPIИK) is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé and Lisa. The group debuted in August 2016 with their single album Square One, which featured "Whistle" and "Boombayah", their first number-one entries on South Korea's Gaon Digital Chart and the Billboard World Digital Song Sales chart, respectively.
                 </p>
                 <div class="row member-list">
-                    <div class="col col-fourth text-center">
+                    <div class="col col-fourth s-col-full mt-32 text-center">
                         <p class="member-name">Rosé</p>
                         <img src="./assets/img/band/rose.jpg" alt="Rose" class="member-img">
                     </div>
 
-                    <div class="col col-fourth text-center">
+                    <div class="col col-fourth s-col-full mt-32 text-center">
                         <p class="member-name">Lisa</p>
                         <img src="./assets/img/band/lisa.jpg" alt="Lisa" class="member-img">
                     </div>
 
-                    <div class="col col-fourth text-center">
+                    <div class="col col-fourth s-col-full mt-32 text-center">
                         <p class="member-name">Jisoo</p>
                         <img src="./assets/img/band/jiso.jpg" alt="Jisoo" class="member-img">
                     </div>
 
-                    <div class="col col-fourth text-center">
+                    <div class="col col-fourth s-col-full mt-32 text-center">
                         <p class="member-name">Jennie</p>
                         <img src="./assets/img/band/jennie.jpg" alt="Jennie" class="member-img">
                     </div>
@@ -93,31 +98,31 @@
 
                     <!-- Place -->
                     <div class="row places-list">
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place1.jpg" alt="New York" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">New York</h3>
                                 <p class="place-time">Fri 27 Nov 2021</p>
                                 <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place2.jpg" alt="Paris" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">Paris</h3>
                                 <p class="place-time">Sat 28 Nov 2021</p>
                                 <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
-                        <div class="col col-third">
+                        <div class="col col-third s-col-full mt-16">
                             <img src="./assets/img/places/place3.jpg" alt="San Francisco" class="place-img">
                             <div class="place-body">
                                 <h3 class="place-heading">San Francisco</h3>
                                 <p class="place-time">Sun 29 Nov 2021</p>
                                 <p class="place-dsc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                                <button class="btn js-buy-ticket s-full-width">Buy Tickets</button>
                             </div>
                         </div>
                         <div class="clear"></div>
@@ -131,18 +136,18 @@
                 <p class="section-sub-heading">Fan? Drop a note!</p>
 
                 <div class="row contact-content">
-                    <div class="col col-half contact-info">
+                    <div class="col col-half contact-info s-col-full">
                         <p><i class="ti-location-pin"></i>Seoul, Korea</p>
-                        <p><i class="ti-mobile"></i>Phone: +82 2 6925 1818</p>
-                        <p><i class="ti-email"></i>Email: blackpink@ygfamily.com</p>
+                        <p><i class="ti-mobile"></i>Phone: <a href="tel:+82 2 6925 1818">+82 2 6925 1818</a></p>
+                        <p><i class="ti-email"></i>Email: <a href="mailto:blackpink@ygfamily.com">blackpink@ygfamily.com</a></p>
                     </div>
-                    <div class="col col-half contact-form">
+                    <div class="col col-half contact-form s-col-full">
                         <form action="">
                             <div class="row">
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full">
                                     <input type="text" name="" id="" required class="form-control" placeholder="Name">
                                 </div>
-                                <div class="col col-half">
+                                <div class="col col-half s-col-full s-mt-8">
                                     <input type="email" name="" id="" required class="form-control" placeholder="Email">
                                 </div>
                             </div>
@@ -151,7 +156,7 @@
                                     <input type="text" name="" id="" required class="form-control" placeholder="Message">
                                 </div>
                             </div>
-                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                            <input class="contact-submit-btn btn pull-right mt-16 s-full-width" type="submit" value="SEND">
                         </form>
                     </div>
                 </div>
@@ -174,7 +179,7 @@
                 <a href="https://twitter.com/BLACKPINK"><i class="ti-twitter"></i></a>
                 <a href="https://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70"><i class="ti-linkedin"></i></a>
             </div>
-            <p class="copyright">Powered by <a href="https://github.com/khoahd7621">khoahd.7621</a></p>
+            <p class="copyright">Powered by <a href="https://github.com/khoahd7621">khoahd7621</a></p>
         </div>
     </div>
 
@@ -242,6 +247,36 @@
         modalContainer.addEventListener('click', function (event) {
             event.stopPropagation()
         })
+
+        var header = document.getElementById('header');
+        var mobileMenuBtn = document.getElementById('mobile-menu');
+        var headerHeight = header.clientHeight;
+        
+        // Đóng/mở mobile menu
+        mobileMenuBtn.onclick = function () {
+            var isClosed = header.clientHeight === headerHeight;
+            if (isClosed) {
+                header.style.height = 'auto';
+            } else {
+                header.style.height = null;
+            }
+        }
+
+        // Tự động đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+            
+            menuItem.onclick = function () {
+                var isParentMenu = this.nextElementSibling && 
+                                   this.nextElementSibling.classList.contains('subnav');
+                if (isParentMenu) {
+                    event.preventDefault();
+                } else {
+                    header.style.height = null;
+                }
+            }
+        }
     </script>
 </body>
 </html>
